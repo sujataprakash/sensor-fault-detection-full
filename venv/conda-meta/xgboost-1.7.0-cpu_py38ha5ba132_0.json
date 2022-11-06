@@ -1,0 +1,37 @@
+{
+  "build": "cpu_py38ha5ba132_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-64",
+  "constrains": [],
+  "depends": [
+    "llvm-openmp >=14.0.4",
+    "py-xgboost 1.7.0 cpu_py38he866dac_0",
+    "python >=3.8,<3.9.0a0",
+    "python_abi 3.8.* *_cp38"
+  ],
+  "extracted_package_dir": "/opt/anaconda3/pkgs/xgboost-1.7.0-cpu_py38ha5ba132_0",
+  "features": "",
+  "files": [],
+  "fn": "xgboost-1.7.0-cpu_py38ha5ba132_0.tar.bz2",
+  "license": "Apache-2.0",
+  "license_family": "APACHE",
+  "link": {
+    "source": "/opt/anaconda3/pkgs/xgboost-1.7.0-cpu_py38ha5ba132_0",
+    "type": 1
+  },
+  "md5": "5e60452a57bd0a7b5aa8bd76b4001fcb",
+  "name": "xgboost",
+  "package_tarball_full_path": "/opt/anaconda3/pkgs/xgboost-1.7.0-cpu_py38ha5ba132_0.tar.bz2",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "xgboost",
+  "sha256": "5d2dbc57b29218d068ccea056960ab7f25653b7366cf5f78b6f13dca577d05ae",
+  "size": 13113,
+  "subdir": "osx-64",
+  "timestamp": 1667417111011,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/xgboost-1.7.0-cpu_py38ha5ba132_0.tar.bz2",
+  "version": "1.7.0"
+}

@@ -1,0 +1,19 @@
+#
+# Author: Lasse Collin
+#
+# This file has been put into the public domain.
+# You can do whatever you want with this file.
+#
+
+prefix=/SUJATA/IRP/projects/project1_sensor_fault_detection/sensor-fault-detection_1/venv
+exec_prefix=/SUJATA/IRP/projects/project1_sensor_fault_detection/sensor-fault-detection_1/venv
+libdir=/SUJATA/IRP/projects/project1_sensor_fault_detection/sensor-fault-detection_1/venv/lib
+includedir=/SUJATA/IRP/projects/project1_sensor_fault_detection/sensor-fault-detection_1/venv/include
+
+Name: liblzma
+Description: General purpose data compression library
+URL: https://tukaani.org/xz/
+Version: 5.2.6
+Cflags: -I${includedir}
+Libs: -L${libdir} -llzma
+Libs.private: -pthread -lpthread
